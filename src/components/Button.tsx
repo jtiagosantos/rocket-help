@@ -1,11 +1,7 @@
 import { FC } from 'react';
-import {
-  Button as NativeBaseButton,
-  IIconButtonProps,
-  Heading,
-} from 'native-base';
+import { Button as NativeBaseButton, IButtonProps, Heading } from 'native-base';
 
-interface ButtonProps extends IIconButtonProps {
+interface ButtonProps extends IButtonProps {
   title: string;
 }
 
