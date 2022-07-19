@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { useNavigation } from '@react-navigation/native';
 import {
   Heading,
   HStack,
@@ -14,6 +15,11 @@ interface HeaderProps extends StyledProps {
 
 export const Header: FC<HeaderProps> = ({ title, ...rest }) => {
   const { colors } = useTheme();
+  const navigation = useNavigation();
+
+  const handleGoBask = () => {
+    navigation.goBack();
+  };
 
   return (
     <HStack
@@ -24,7 +30,10 @@ export const Header: FC<HeaderProps> = ({ title, ...rest }) => {
       pb={6}
       pt={12}
       {...rest}>
-      <IconButton icon={<CaretLeft color={colors.gray[200]} size={24} />} />
+      <IconButton
+        icon={<CaretLeft color={colors.gray[200]} size={24} />}
+        onPress={handleGoBask}
+      />
       <Heading
         flex={1}
         color="gray.100"
