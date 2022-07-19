@@ -4,7 +4,9 @@ import {
   Roboto_400Regular,
   Roboto_700Bold,
 } from '@expo-google-fonts/roboto';
-import { SignIn } from './src/screens/SignIn';
+
+//routes
+import { Routes } from './src/routes';
 
 //components
 import { Loading } from './src/components/Loading';
@@ -22,7 +24,7 @@ export const App = () => {
         backgroundColor="transparent"
         translucent
       />
-      {fontsLoaded ? <SignIn /> : <Loading />}
+      {fontsLoaded ? <Routes /> : <Loading />}
     </NativeBaseProvider>
   );
 };
