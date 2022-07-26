@@ -86,6 +86,7 @@ The following tools were used in the construction of project:
 
 - **[Expo](https://docs.expo.dev/)**
 - **[Native Base](https://docs.nativebase.io/?utm_source=HomePage&utm_medium=header&utm_campaign=NativeBase_3)**
+- **[Firebase](https://firebase.google.com/docs)**
 - **[Typescript](https://www.typescriptlang.org/)**
 - **[ESLint](https://eslint.org/)**
 - **[Prettier](https://prettier.io/)**
