@@ -8,7 +8,7 @@
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=orange">
    <a href="https://github.com/jtiagosantos/rocket-help/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/jtiagosantos/arloesi-task?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/jtiagosantos/rocket-help?style=social">
   </a>
 </p>
 
