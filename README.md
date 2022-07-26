@@ -65,7 +65,11 @@ $ yarn or npm i
 3️⃣ Start project:
 
 ```bash
+//android
 $ yarn android or npm run android
+
+//ios
+$ yarn ios or npm run ios
 ```
 
 🔐 Test data
